@@ -20,4 +20,23 @@ button {
   background: rgb(4, 191, 4);
   color: white;
   font-weight: 600;
+  transition: transform 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin-top: 4px;
+}
+
+a {
+  color: #5f9341;
 }
